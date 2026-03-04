@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5: Capas y Superposición con Grid</title>
+    <link rel="stylesheet" href="ejercicio5.css">
+</head>
+<body>
+    <h1>Ejercicio 5: Capas y Superposición</h1>
+    
+    <section class="ejercicio">
+        <h2>Mi primera superposición</h2>
+        <div class="grid-container">
+            <div class="capa fondo">🌄 Imagen de fondo</div>
+            <div class="capa texto-superior">✨ Texto Destacado</div>
+            <div class="celda">Celda 2</div>
+            <div class="celda">Celda 3</div>
+            <div class="celda">Celda 4</div>
+        </div>
+    </section>
+    
+    <section class="ejercicio">
+        <h2>Ejemplo creativo: Tarjeta con superposición</h2>
+        <div class="grid-container-creativo">
+            <img src="https://picsum.photos/400/300?random=1" alt="Imagen aleatoria" class="imagen-base">
+            <div class="capa-texto">
+                <h3>Nuevo Producto</h3>
+                <p>Descuento 30%</p>
+                <button>Ver más</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="reflexion">
+        <h3>Pregunta:</h3>
+        <p>¿Qué posibilidades ofrece esta técnica para destacar información visual?</p>
+        <p><strong>Mi respuesta:</strong>Permite poner texto encima de imágenes sin necesidad de editarlas en Photoshop.
+            <ul>
+                <li>Permite poner texto encima de imágenes sin necesidad de editarlas en Photoshop.</li>
+                <li>Con el z-index puedo controlar qué elemento va adelante y cuál va atrás.</li>
+                <li>Se pueden hacer títulos llamativos en la parte principal de la página.</li>
+                <li>Ahorra espacio porque la imagen y el texto van en el mismo lugar.</li>
+                <li>Le puse fondo semitransparente al texto y se leía mejor sin tapar toda la imagen.</li>
+                <li>En las pruebas que hice, el elemento con z-index más alto siempre quedaba encima.</li>
+                <li>Esto sirve para destacar botones o mensajes importantes sobre imágenes de fondo.</li>
+                
+            </ul>
+</p>
+    </div>
+</body>
+</html>

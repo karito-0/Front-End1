@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 - Alineación con Grid</title>
+    <link rel="stylesheet" href="ejercicio6.css">
+</head>
+<body>
+    <h1>Ejercicio 6: Probando alineación en Grid</h1>
+    
+    <div class="explicacion">
+        <p>En este ejercicio estoy aprendiendo a alinear elementos con CSS Grid. 
+        Voy a probar diferentes propiedades para ver cómo se comportan.</p>
+    </div>
+
+    <div class="seccion">
+        <h2>1. Alineando las columnas y filas (justify-content y align-content)</h2>
+        <p class="nota">Aquí estoy moviendo TODA la cuadrícula dentro del recuadro gris</p>
+        
+        <div class="ejemplo">
+            <h3>Centrado</h3>
+            <div class="grid-contenedor grid-1">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+                <div class="caja">4</div>
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <h3>Esquina superior izquierda</h3>
+            <div class="grid-contenedor grid-2">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+                <div class="caja">4</div>
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <h3>Espaciado entre columnas</h3>
+            <div class="grid-contenedor grid-3">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+                <div class="caja">4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h2>2. Alineando los elementos dentro de cada celda (justify-items y align-items)</h2>
+        <p class="nota">Ahora cada número se mueve DENTRO de su propio cuadrito azul</p>
+        
+        <div class="ejemplo">
+            <h3>Centrados</h3>
+            <div class="grid-contenedor grid-4">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+                <div class="caja">4</div>
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <h3>Esquina superior izquierda</h3>
+            <div class="grid-contenedor grid-5">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+                <div class="caja">4</div>
+            </div>
+        </div>
+        
+        <div class="ejemplo">
+            <h3>Esquina inferior derecha</h3>
+            <div class="grid-contenedor grid-6">
+                <div class="caja">1</div>
+                <div class="caja">2</div>
+                <div class="caja">3</div>
+                <div class="caja">4</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h2>3. Mezclando todo</h2>
+        <p class="nota">Combiné varias propiedades para ver qué pasa</p>
+        
+        <div class="grid-contenedor grid-7">
+            <div class="caja">1</div>
+            <div class="caja">2</div>
+            <div class="caja">3</div>
+            <div class="caja">4</div>
+            <div class="caja">5</div>
+            <div class="caja">6</div>
+        </div>
+    </div>
+
+    <div class="seccion">
+        <h2>4. Un elemento rebelde</h2>
+        <p class="nota">Hice que el número 4 se comportara diferente a los demás</p>
+        
+        <div class="grid-contenedor grid-8">
+            <div class="caja">1</div>
+            <div class="caja">2</div>
+            <div class="caja">3</div>
+            <div class="caja especial">4</div>
+            <div class="caja">5</div>
+            <div class="caja">6</div>
+        </div>
+        <p class="explicacion-pequeña">El 4 está centrado en su celda mientras los otros están en la esquina</p>
+    </div>
+
+  }
+    <div class="pregunta-final">
+        <h3>Pregunta de la guía:</h3>
+        <p class="texto-pregunta">¿Cómo influye la alineación en la estética final y la legibilidad del contenido?</p>
+        
+        <h3>Mi respuesta:</h3>
+        <div class="mi-respuesta">
+            <p>La alineación es súper importante porque:</p>
+            <ul>
+                <li>Cuando todo está bien alineado, la página se ve más ordenada y profesional.</li>
+                <li>Si los textos están centrados o a la izquierda, es más fácil leerlos.</li>
+                <li>Los espacios entre elementos hacen que no se vea todo amontonado.</li>
+                <li>Con las pruebas que hice, me di cuenta que el justify-content mueve todo el grupo, mientras que justify-items mueve cada elemento por separado dentro de su cuadro.</li>
+                <li>Un diseño bien alineado da una mejor impresión a quien visita la página.</li>
+            </ul>
+            <p>Lo mejor fue cuando puse un elemento diferente (el número 4) y los demás seguían su propia alineación. Eso permite destacar cosas importantes.</p>
+        </div>
+    </div>
+
+</body>
+</html>
